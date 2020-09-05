@@ -4,7 +4,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron:  '0 0 10 * *'
+    - cron:  '35 8 5 * *'
   watch:
     types: started
 jobs:
@@ -30,4 +30,3 @@ jobs:
           TENANT: ${{ secrets.TENANT }}
           USER_NAME: ${{ secrets.USER_NAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-
